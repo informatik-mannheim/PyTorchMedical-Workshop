@@ -18,7 +18,7 @@ Der Code in diesem Repo wurde für Aufgaben und Materialien verwendet und ist ge
     - [snippets-for-slides](./basic_exercises/snippets-for-slides/) enthält Code, welcher für die Theorie/Beispiele auf den Folien verwendet wurde
 - [basic_templates](./basic_templates/) enthält Code, welcher die Grundlagen von Python, numpy und PyTorch erklärt (`englische Kommentare`). Einige Teile davon sind dazu gedacht ausgeführt zu werden, um aus dem Console.Out zu lesen, da der Code teilweise eher dafür ausgelegt ist.
 - [Hands-on_Neuronale_Netze](./Hands-on_Neuronale_Netze/) enthält Übungen zu neuronalen Netzen und beginnt mit einer Übung zur Aktivierungsfunktion. Am Ende dieser Übungen steht die Fertigstellung eines Netzes zur Klassifizierung von Organen (Bildern von Organen). `Die Übung sollte ca. 50-60% (~3h) der Zeit ausfüllen (inklusive Erklärung der Theorie in den Folien und der Betreuung)`
-    - pytorch_google_imgs `muss mit Testdaten gefüllt werden`. Empfohlen sind mindestens 500 gleichgroße Bilder (verteilt auf die verschiedenen Organe)
+    - pytorch_google_imgs `muss mit Testdaten gefüllt werden`. Empfohlen sind mindestens 500 gleichgroße Bilder (verteilt auf die verschiedenen Organe, das neuronale Netz ist zurzeit auf 100x100Pixel große Bilder ausgelegt)
 </details>
 
 <details><summary>English summary</summary>
@@ -40,5 +40,5 @@ The code in this repository was used for exercies and the structure is explained
     - [snippets-for-slides](./basic_exercises/snippets-for-slides/) includes code used on the presentation slides
 - [basic_templates](./basic_templates/) includes code that explains basics in python, numpy and pytorch (`english explanations`). Some parts of it are better run and looked at in the console.out than the actual code.
 - [Hands-on_Neuronale_Netze](./Hands-on_Neuronale_Netze/) contains exercises to neuronal networks starting with basic activation functions (written with numpy only) and ends with working neuronal networks for image classification. `These exercises should make up about 50-60% (~3h) of the workshop time (including theory and introductions)`
-    - pytorch_google_imgs `has to be prepared with testdata`. We recommend a minimum-total of 500 same size images images (distributed over the different organs).
+    - pytorch_google_imgs `has to be prepared with testdata`. We recommend a minimum-total of 500 same-size images (distributed over the different organs, the neuronal net uses a size of 100x100 pixels currently).
 </details>
